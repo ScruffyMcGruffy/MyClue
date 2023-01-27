@@ -23,8 +23,6 @@ class GamePlay():
         self.dictionary_of_rooms = {'Room 1' : self.list_of_rooms[0],'Room 2' : self.list_of_rooms[1],'Room 3' : self.list_of_rooms[2], 'Room 4' : self.list_of_rooms[3],'Room 5' : self.list_of_rooms[4]}
         self.kill_room = {'death room ': self.list_of_rooms.pop(random.randrange(0,len(self.list_of_rooms)))}
 
-        #wbhdauzdjwads
-
         self.intro()
 if __name__== "__main__":
     GamePlay()
